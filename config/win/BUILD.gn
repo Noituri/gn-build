@@ -57,7 +57,6 @@ config("compiler") {
     "/Gy",  # Enable function-level linking.
     "/FS",  # Preserve previous PDB behavior.
     "/bigobj",  # Some of our files are bigger than the regular limits.
-    "/std:c++17", # C++17 standard
   ]
 
   if (current_cpu == "x86") {
